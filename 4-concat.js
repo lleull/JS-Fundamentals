@@ -1,6 +1,6 @@
 const args = process.argv.slice(2);
 
-if (args.length < 2) {
+if (args.length < 1) {
   console.log("undefined is undefined");
 } else {
   // Take the first two arguments and join them with ' is '
