@@ -1,10 +1,5 @@
-const testNumber = (number) => {
-  if (!number) {
-    console.log("No argument");
-    return;
-  } else {
-    console.log("Argument found");
-  }
-};
-
-console.log(testNumber());
+if (process.argv.length <= 2) {
+  console.log("No argument");
+} else {
+  console.log("Argument found");
+}
